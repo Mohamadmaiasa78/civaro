@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ scrollPos = 0 }) => {
       <div 
         className="absolute inset-0 scale-125 transition-transform duration-100 ease-out"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=2400')`,
+          backgroundImage: `url('/hero.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           transform: `translate3d(0, ${parallaxOffset}px, 0) scale(1.2)`,
